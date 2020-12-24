@@ -4,5 +4,5 @@ cd yay
 makepkg -si
 cd ..
 rm -rf yay
-yay -Syy visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox docker nvm brave dbeaver pencil staruml steam ntfs-3g
+yay -Syy visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox docker nvm brave dbeaver pencil staruml steam ntfs-3g logiops dropbox
 #filebot47 ffmpeg 
