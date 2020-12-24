@@ -1,4 +1,4 @@
-pacman -Syy -needed git base-devel vlc git
+pacman -Syy --needed git base-devel vlc git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
