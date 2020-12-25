@@ -11,3 +11,8 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="mortalscumbag"/g' ~/.zshrc
 source ~/.zshrc
 git clone https://github.com/arcticicestudio/nord-gnome-terminal.git
 ./nord-gnome-terminal/src/nord.sh
+sudo mkdir /mnt/media /mnt/games
+sudo chown 1000:1000 -R /mnt/media
+sudo chown 1000:1000 -R /mnt/games
+sudo echo "UUID=DA0203E20203C28D /mnt/media          ext4    defaults 0 0" >> /etc/fstab
+sudo echo "UUID=9E5CB0D35CB0A783 /mnt/games          ext4    defaults 0 0" >> /etc/fstab
