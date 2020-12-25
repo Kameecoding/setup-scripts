@@ -8,3 +8,4 @@ yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoff
 #filebot47 ffmpeg 
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="mortalscumbag"/g' ~/.zshrc
+source ~/.zshrc
