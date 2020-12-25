@@ -9,3 +9,5 @@ yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoff
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="mortalscumbag"/g' ~/.zshrc
 source ~/.zshrc
+git clone https://github.com/arcticicestudio/nord-gnome-terminal.git
+./nord-gnome-terminal/src/nord.sh
