@@ -14,5 +14,5 @@ git clone https://github.com/arcticicestudio/nord-gnome-terminal.git
 sudo mkdir /mnt/media /mnt/games
 sudo chown 1000:1000 -R /mnt/media
 sudo chown 1000:1000 -R /mnt/games
-echo "UUID=DA0203E20203C28D /mnt/media          ext4    defaults 0 0" | sudo tee -a /etc/fstab
-echo "UUID=9E5CB0D35CB0A783 /mnt/games          ext4    defaults 0 0" | sudo tee -a /etc/fstab
+echo "UUID=DA0203E20203C28D /mnt/media          ntfs-3g    defaults 0 0" | sudo tee -a /etc/fstab
+echo "UUID=9E5CB0D35CB0A783 /mnt/games          ntfs-3g    defaults 0 0" | sudo tee -a /etc/fstab
