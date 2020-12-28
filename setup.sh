@@ -5,6 +5,8 @@ makepkg -si
 cd ..
 rm -rf yay
 yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin ufetch
+git config --global user.email "andrej.kovac.ggc@gmail.com"
+git config --global user.name "Kameecoding"
 #filebot47 ffmpeg 
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="mortalscumbag"/g' ~/.zshrc
