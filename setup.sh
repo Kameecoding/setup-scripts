@@ -1,4 +1,4 @@
-sudo pacman -Syy git base-devel vlc git nvidia nvidia-settings chromium docker ntfs-3g steam ufetch --noconfirm
+sudo pacman -Syy git base-devel vlc git nvidia chromium docker ntfs-3g steam ufetch --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
