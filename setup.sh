@@ -1,10 +1,10 @@
-sudo pacman -Syy git base-devel vlc git nvidia chromium docker ntfs-3g steam ufetch --noconfirm
+sudo pacman -Syy git base-devel vlc git nvidia chromium docker ntfs-3g steam --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ..
 rm -rf yay
-yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin
+yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin ufetch
 #filebot47 ffmpeg 
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="mortalscumbag"/g' ~/.zshrc
