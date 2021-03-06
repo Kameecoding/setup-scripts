@@ -25,3 +25,6 @@ sudo mount /mnt/media
 sudo mount /mnt/games
 echo 'alias gfs="git fetch && git status"' >> ~/.zshrc
 echo 'alias gpp="git pull && git push"' >> ~/.zshrc
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' ~/.zshrc  # This loads nvm
+
