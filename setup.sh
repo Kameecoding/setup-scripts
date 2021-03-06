@@ -4,13 +4,13 @@ cd yay
 makepkg -si
 cd ..
 rm -rf yay
-yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops ristretto dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin ufetch insomnia filebot47
+yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops ristretto dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin ufetch insomnia
 git config --global user.email "andrej.kovac.ggc@gmail.com"
 git config --global user.name "Kameecoding"
 git config --global rebase.autoStash true
 git config --global pull.rebase true
 git config --global core.autocrlf input
-#filebot47 ffmpeg 
+yay -Syy filebot47 ffmpeg --noconfirm
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="mortalscumbag"/g' ~/.zshrc
 source ~/.zshrc
