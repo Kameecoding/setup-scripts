@@ -4,7 +4,7 @@ cd yay
 makepkg -si
 cd ..
 rm -rf yay
-yay -Syy  --noconfirm visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops ristretto dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin ufetch insomnia kronometer
+yay -Syy  --noconfirm zsh visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm dbeaver pencil staruml logiops ristretto dropbox nordic-theme-git qbittorrent teams skypeforlinux-stable-bin ufetch insomnia kronometer
 git config --global user.email "andrej.kovac.ggc@gmail.com"
 git config --global user.name "Kameecoding"
 git config --global rebase.autoStash true
