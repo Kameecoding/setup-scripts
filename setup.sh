@@ -33,7 +33,7 @@ echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' ~/.zshrc  # This loads n
 yay -S --noconfirm bluez-utils
 curl 'https://dlcdnets.asus.com/pub/ASUS/wireless/USB-BT400/DR_USB_BT400_1201710_Windows.zip' -o bt400-driver.zip
 unzip bt400-driver.zip
-cd Win10_USB-BT400_DRIVERS/Win10_USB-BT400_Driver_Package/64
-hex2hcd BCM20702A1_001.002.014.1443.1467.hex -o BCM20702A1-0b05-17cb.hcd
-sudo mkdir -p /lib/firmware/brcm/
+cd Win10_USB-BT400_DRIVERS/Win10_USB-BT400_Driver_Package/64 && \
+hex2hcd BCM20702A1_001.002.014.1443.1467.hex -o BCM20702A1-0b05-17cb.hcd && \
+sudo mkdir -p /lib/firmware/brcm/ &&\
 sudo cp BCM20702A1-0b05-17cb.hcd /lib/firmware/brcm/
