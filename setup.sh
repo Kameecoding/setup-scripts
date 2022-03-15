@@ -1,7 +1,7 @@
-sudo pacman -Syy git base-devel vlc git nvidia chromium docker ntfs-3g steam --noconfirm
+sudo pacman -Syy git base-devel vlc git nvidia chromium docker ntfs-3g steam go --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 rm -rf yay
 yay -Syy  --noconfirm zsh visual-studio-code-bin spotify jdk11-adoptopenjdk libreoffice jetbrains-toolbox nvm steam\
